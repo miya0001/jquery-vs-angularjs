@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "serve": "./node_modules/.bin/http-server -c1 -o"
+    "serve": "http-server -c1 -o"
   },
   "author": "",
   "license": "ISC",
