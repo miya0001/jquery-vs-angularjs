@@ -1,0 +1,28 @@
+body
+{
+  width: 740px;
+  margin: 10px auto;
+}
+
+h1
+{
+  margin-bottom: 1em;
+}
+
+textarea,
+pre
+{
+  width: 100%;
+  max-width: 100%;
+  border: 1px solid #dedede;
+  height: 5em;
+  font-size: 30px;
+  font-family: monospace;
+}
+
+hr
+{
+  border: none;
+  border-bottom: 1px dashed #dedede;
+  margin: 2em 0;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>jQuery</title>
+  <script src="https://code.jquery.com/jquery-2.2.2.min.js"></script>
+</head>
+<body>
+
+  <h1>jQuery</h1>
+
+  <textarea></textarea>
+
+  <hr>
+
+  <pre></pre>
+
+  <hr>
+
+  <a href="./">Home</a>
+
+  <script type="text/javascript">
+    $( 'textarea' ).eq( 0 ).on( 'keyup', function(){
+      $( 'pre' ).eq( 0 ).text( $( 'textarea' ).eq( 0 ).val() );
+    } );
+  </script>
+
+</body>
+</html>
