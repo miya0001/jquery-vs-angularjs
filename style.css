@@ -18,6 +18,12 @@ pre
   height: 5em;
   font-size: 30px;
   font-family: monospace;
+  padding: 20px;
+}
+
+pre
+{
+  background-color: #f5f5f5;
 }
 
 hr
